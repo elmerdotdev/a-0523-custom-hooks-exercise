@@ -1,0 +1,17 @@
+.wrapper__login {
+  width: 100%;
+}
+
+.wrapper__login h2 {
+  margin: 0 0 1rem;
+}
+
+.wrapper__login_input {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper__login_input input[type="text"] {
+  flex: 1;
+}

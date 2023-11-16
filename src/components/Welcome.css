@@ -1,0 +1,13 @@
+.wrapper__welcome {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.wrapper__welcome h2 {
+  margin: 0;
+}
+
+.wrapper__welcome button {
+  background-color: red;
+}
