@@ -1,8 +1,13 @@
-# React + Vite
+# React Custom Hooks Exercise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Demo: [https://drive.google.com/file/d/1xyYmlyDzy6S6qNcBUh5jRYrSiFJGFNCw/view?usp=sharing]
 
-Currently, two official plugins are available:
+## Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install the project by running `npm install` after cloning the repository
+2. Using a custom hook, store the input into the browser's *LocalStorage* upon clicking log in
+3. Fetch the name from *LocalStorage* and display on the `<Welcome />` component
+4. Clicking log out will remove the name from *LocalStorage*
+5. Memoized the `<Quote />` component so that it doesn't re-render whenever you log in and log out
+
+**IMPORTANT:** Unless you log out, closing and reopening the browser window should retain your login name (see demo)
